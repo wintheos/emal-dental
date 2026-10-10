@@ -1,0 +1,64 @@
+/* Эмаль — токены дизайн-системы */
+:root, [data-theme="light"] {
+  --surface-000: #FFFFFF;
+  --surface-100: #F6F8F8;
+  --surface-200: #EAF0F0;
+  --ink: #102A33;
+  --ink-muted: #4A5F66;
+  --border: #D3DDDE;
+  --border-strong: #7F9399;
+  --brand-050: #EEF6F6;
+  --brand-100: #DDEDEE;
+  --brand-500: #2B7F92;
+  --brand-600: #0F5566;
+  --brand-700: #0B3D4A;
+  --on-brand: #FFFFFF;
+  --sand-500: #B48A4E;
+  --sand-100: #F3EADB;
+  --sand-ink: #6E5428;
+  --success: #1A6B47;
+  --success-100: #E2F2EA;
+  --warning: #8A5300;
+  --warning-100: #FBEFD9;
+  --danger: #A8231A;
+  --danger-100: #FBE6E4;
+}
+[data-theme="dark"] {
+  --surface-000: #12232A;
+  --surface-100: #0C1A1F;
+  --surface-200: #182E36;
+  --ink: #E8F0F1;
+  --ink-muted: #A3B6BB;
+  --border: #24404A;
+  --border-strong: #5E7A83;
+  --brand-050: #12303A;
+  --brand-100: #173B45;
+  --brand-500: #3E9AAD;
+  --brand-600: #5FB3C4;
+  --brand-700: #84C7D4;
+  --on-brand: #06222A;
+  --sand-500: #C9A46A;
+  --sand-100: #33291B;
+  --sand-ink: #E3C690;
+  --success: #6FCF9F;
+  --success-100: #163829;
+  --warning: #EDB55E;
+  --warning-100: #3A2C14;
+  --danger: #F49A90;
+  --danger-100: #3E1C19;
+}
+:root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-20: 80px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-full: 999px;
+  --font-sans: "Onest", "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
